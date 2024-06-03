@@ -21,8 +21,10 @@ function Indies() {
   });
 
   return (
-    <div className='row'>
-      {listIndies}
+    <div className='indies'>
+      <div className='row'>
+        {listIndies}
+      </div>
     </div>
   );
 }
